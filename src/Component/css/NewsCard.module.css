@@ -1,0 +1,24 @@
+.card {
+  width: 19rem;
+  height: 29rem;
+  margin: 6px;
+  border: 1px solid #2b226c;
+  border-radius: 0.65rem;
+  background: none;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 12rem;
+  display: grid;
+  object-fit: cover;
+  border-radius: 0.65rem 0.65rem 3px 3px;
+}
+
+.cardBody {
+  display: grid;
+  margin: 10px;
+  color: white;
+  padding-block: "20px";
+}
