@@ -32,7 +32,7 @@ const News = (props) => {
   };
 
   useEffect(() => {
-    document.title = `News Monkey - ${capitalizeFirstLetter(
+    document.title = `TrendBeat  - ${capitalizeFirstLetter(
       props.category
     )} News`;
     updateNews();
@@ -79,20 +79,20 @@ const News = (props) => {
   return (
     <>
       <h1 className="text-center" style={{ marginTop: "4rem" }}>
-        News Monkey - {capitalizeFirstLetter(props.category)} News
+        TrendBeat  - {capitalizeFirstLetter(props.category)} News
       </h1>
-      <div className="container mb-3">
-  {loading && articles.length === 0 && <Spiner />} {/* Show only if no articles */}
-  <InfiniteScroll
-    dataLength={articles.length}
-    next={fetchMoreData}
-    hasMore={hasMore}
-    endMessage={
-      <p style={{ textAlign: "center", fontStyle: "italic", color: "#FFF" }}>
-        🎉 You&apos;ve reached the end! No more articles... for now. Stay tuned! 📖
-      </p>
-    }
-  >
+      <div className="container">
+        {loading && articles.length === 0 && <Spiner />} {/* Show only if no articles */}
+        <InfiniteScroll
+          dataLength={articles.length}
+          next={fetchMoreData}
+          hasMore={hasMore}
+          endMessage={
+            <p style={{ textAlign: "center", fontStyle: "italic", color: "#FFF" }}>
+              🎉 You&apos;ve reached the end! No more articles... for now. Stay tuned! 📖
+            </p>
+          }
+        >
     <div
       className="row container"
       style={{

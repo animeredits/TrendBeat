@@ -3,7 +3,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Styles from "../Styles/NewsCard.module.css";
-import image from "../assets/Jujutsu-Kaisen-Chapter-241-Spoil.webp";
+import image from "../assets/images/Jujutsu-Kaisen-Chapter-241-Spoil.webp";
 const MAX_TITLE_LENGTH = 80;
 const MAX_DESCRIPTION_LENGTH = 150;
 const NewsItems = (props) => {
@@ -44,12 +44,12 @@ const NewsItems = (props) => {
           />
 
           <div className={Styles.cardBody}>
-            <h5 className="card-title" style={{ fontSize: "1.2rem" }}>
+            <h5 className="card-title" style={{ fontSize: "20px" }}>
               {truncatedTitle}
             </h5>
             <p
               className="card-text"
-              style={{ fontSize: "0.90rem", marginTop: "10px" }}
+              style={{ fontSize: "18px", marginTop: "10px" }}
             >
               {truncatedDescription}
             </p>

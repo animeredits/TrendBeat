@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import loading from "../assets/8UiQ.gif";
+import loading from "../assets/images/8UiQ.gif";
 const Spiner = () => {
   return (
     <>

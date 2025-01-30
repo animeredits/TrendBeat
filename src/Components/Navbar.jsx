@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types"; 
+import '../Styles/Navbar.module.css'
 const Navbar = ({ setQuery }) => {
 
   const handleSearchChange = (e) => {
@@ -13,17 +14,17 @@ const Navbar = ({ setQuery }) => {
   };
   return (
     <>
-      <nav
-        className="navbar fixed-top navbar-expand-lg navbar-dark"
-        style={{
-          background: "transparent",
-          backdropFilter: "blur(2px) saturate(180%)", // Correct camelCase
-          WebkitBackdropFilter: "blur(2px) saturate(180%)", // Correct camelCase for Webkit
-        }}
-      >
-        <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
-            News Monkey
+        <nav
+          className="navbar fixed-top navbar-expand-lg navbar-dark justify-content-center"
+          style={{
+            background: "transparent",
+            backdropFilter: "blur(2px) saturate(180%)",
+            WebkitBackdropFilter: "blur(2px) saturate(180%)",
+          }}
+        >
+        <div className="container text-center">
+          <Link className="navbar-brand mx-auto" to="/">
+            TrendBeat 
           </Link>
           <button
             className="navbar-toggler"
@@ -83,7 +84,7 @@ const Navbar = ({ setQuery }) => {
             <form className="d-flex" role="search" onSubmit={handleSubmit}>
               <input
                 className="form-control me-2"
-                placeholder="Search on News-app"
+                placeholder="Search on TrendBeat "
                 onChange={handleSearchChange}
                 style={{
                   background: "transparent",

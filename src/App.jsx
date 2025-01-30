@@ -14,7 +14,6 @@ const App = () => {
   const apikey = import.meta.env.VITE_NEWS_API;
   return (
     <>
-      <div className="scroll-container">
       <LoadingBar color="#27c4f5" height={3} progress={Progress} />
       <Navbar setQuery={setQuery} />
       <ParticlesBackground />
@@ -131,7 +130,6 @@ const App = () => {
           }
         ></Route>
       </Routes>
-      </div>
     </>
   );
 };

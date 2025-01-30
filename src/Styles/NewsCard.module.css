@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
+@font-face {
+  font-family: Georgia;
+  src: url(../assets/Font/fa-solid-900.woff2);
+}
+
 .card {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   width: 19rem;
   height: 29rem;
   margin: 6px;
   backdrop-filter: blur(2px) saturate(180%);
-  -webkit-backdrop-filter: blur(2px) saturate(180%);
-  background-color: rgba(17, 25, 40, 0.85);
+  background-color: transparent;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .card img {
@@ -24,3 +31,10 @@
   color: white;
   padding-block: 20px;
 }
+
+.card-title{
+  font-family: "Roboto Condensed", serif;
+}
+
+
+
