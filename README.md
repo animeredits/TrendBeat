@@ -6,7 +6,7 @@
 
 <h2>🚀 Demo</h2>
 
-[trendbeat](https://trendbeat.netlify.app/)  
+[Trendbeat](https://trendbeat.netlify.app/)  
 
 <h2>🧐 Features</h2>
 
