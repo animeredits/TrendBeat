@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/animeredits/TrendBeat/image?description=1&descriptionEditable=TrendBeat%20-%20Get%20your%20daily%20dose%20of%20news%20for%20free!&logo=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F30%2FReact_Logo_SVG.svg%2F1024px-React_Logo_SVG.svg.png&name=1&pattern=Circuit%20Board&theme=Dark" alt="project-image"></p>
 
-<p id="description">TrendBeat - Get your daily dose of news for free!</p>
+# TrendBeat - Get your daily dose of news for free!
 
 <h2>🚀 Demo</h2>
 
