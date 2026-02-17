@@ -15,7 +15,7 @@ const Navbar = ({ setQuery }) => {
   return (
     <>
         <nav
-          className="navbar fixed-top navbar-expand-lg navbar-dark "
+          className="navbar fixed-top navbar-expand-lg navbar-dark"
           style={{
             background: "transparent",
             backdropFilter: "blur(2px) saturate(180%)",
