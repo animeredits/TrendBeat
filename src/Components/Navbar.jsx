@@ -15,15 +15,15 @@ const Navbar = ({ setQuery }) => {
   return (
     <>
         <nav
-          className="navbar fixed-top navbar-expand-lg navbar-dark justify-content-center"
+          className="navbar fixed-top navbar-expand-lg navbar-dark "
           style={{
             background: "transparent",
             backdropFilter: "blur(2px) saturate(180%)",
             WebkitBackdropFilter: "blur(2px) saturate(180%)",
           }}
         >
-        <div className="container text-center">
-          <Link className="navbar-brand mx-auto" to="/">
+        <div className="container-fluid">
+          <Link className="navbar-brand" to="/">
             TrendBeat 
           </Link>
           <button

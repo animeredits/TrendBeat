@@ -42,7 +42,6 @@ const NewsItems = (props) => {
             alt=""
             onError={handleImageError}
           />
-
           <div className={Styles.cardBody}>
             <h5 className="card-title" style={{ fontSize: "20px" }}>
               {truncatedTitle}
